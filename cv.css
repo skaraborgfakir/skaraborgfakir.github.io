@@ -28,3 +28,10 @@ div.right_section {
 div.kunskaper_sektion {
     text-align: right;
 }
+
+img.stor {
+    width: 600;
+}
+img.liten {
+    width: 150;
+}
