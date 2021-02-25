@@ -21,4 +21,5 @@ div.right_section {
     width:    20%;
     top:      0px;
     right:    0px;
+    text-align: right;
 }
