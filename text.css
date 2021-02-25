@@ -41,7 +41,10 @@ div.main_page {
     background-color: #FFFFFF;
 
     text-align: center;
+}
 
+div.kunskaper_sektion {
+    text-align: right;
 }
 
 div.page_header {
