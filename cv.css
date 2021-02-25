@@ -12,13 +12,13 @@ body {
 div.main {
     position: absolute;
     top:      0px;
-    width:    400px;
+    width:    80%;
     left:     0px;
 }
 
 div.right_sektion {
     position: absolute;
-    width:    200px;
+    width:    20%;
     top:      0px;
     right:    0px;
 }
