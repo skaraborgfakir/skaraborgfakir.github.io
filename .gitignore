@@ -1,0 +1,17 @@
+.*.sw[po]
+
+##
+## git revisioner
+##
+*~HEAD~
+
+##
+## emacs backup
+## inklusive temporär backup
+*~
+\.#\.*
+\#*#
+
+##
+## låsfil (vi ?)
+.~lock.*
