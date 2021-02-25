@@ -44,6 +44,9 @@ div.main_page {
 }
 
 div.kunskaper_sektion {
+    position:   absolute;
+    top:        8px;
+    right:      8px;
     text-align: right;
 }
 
