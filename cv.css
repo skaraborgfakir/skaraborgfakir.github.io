@@ -17,6 +17,7 @@ div.main {
 
 div.right_sektion {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    width:    200;
+    top:      0px;
+    right:    0px;
 }
