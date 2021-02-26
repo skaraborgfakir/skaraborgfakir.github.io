@@ -29,9 +29,9 @@ div.kunskaper_sektion {
     text-align: right;
 }
 
-img.stor {
-    width: 600;
+img.#stor {
+    width: 600px;
 }
-img.liten {
-    width: 90;
+img.#liten {
+    width: 90px;
 }
