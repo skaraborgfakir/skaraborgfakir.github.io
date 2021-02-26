@@ -48,6 +48,7 @@ p.company_beskrivning {
     text-align: right;
     /* background: #fefefe; */
     background: rgb( 240,240,240);
+    font-size: 0.9em;
 }
 
 #kunskaper_sektion {
