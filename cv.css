@@ -1,37 +1,64 @@
 * {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    margin:      0px 0px 0px 0px;
+    padding:     0px 0px 0px 0px;
+    font-family: sans-serif;
 }
 
 body {
     position: relative;
-    width:    600px;
+    width:    800px;
     height:   1200px;
+    background: #d4d4d4;
 }
 
-div.main {
+#main {
+    padding:  10px 0px 0px 30px;
     position: absolute;
     top:      0px;
-    width:    80%;
+    width:    65%;
     left:     0px;
     text-align: left;
+    background: #fefefe;
 }
 
-div.right_section {
+h3.namn {
+    padding: 20px 0px 0px 0px;
+}
+h4.company {
+    padding: 10px 0px 0px 0px;
+}
+
+p.company {
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+p.company_tid {
+    font-size: 0.8em;
+}
+p.company_beskrivning {
+    font-size: 0.8em;
+}
+
+#right_section {
     position: absolute;
-    width:    20%;
+    padding:  10px 10px 0px 0px;
+    width:    30%;
     top:      0px;
     right:    0px;
     text-align: right;
+    /* background: #fefefe; */
+    background: rgb( 240,240,240);
 }
 
-div.kunskaper_sektion {
+#kunskaper_sektion {
     text-align: right;
 }
 
-img.#stor {
-    width: 600px;
+#stor {
+    width: 500px;
 }
-img.#liten {
-    width: 90px;
+#liten {
+    width:     90px;
+    /* rotering höger 90 grader */
+    /* transform: rotate(90deg);*/
 }
