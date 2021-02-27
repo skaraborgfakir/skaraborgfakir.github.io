@@ -51,7 +51,19 @@ p.company_beskrivning {
     font-size: 0.9em;
 }
 
+#utvecklingstekniker {
+    text-align: right;
+}
+
+#IT_kunskaper {
+    text-align: right;
+}
+
 #kunskaper_sektion {
+    text-align: right;
+}
+
+#licenser_sektion {
     text-align: right;
 }
 
