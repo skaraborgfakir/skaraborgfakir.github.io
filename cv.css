@@ -59,6 +59,11 @@ p.company_beskrivning {
     font-size: 0.8em;
 }
 
+h4.utbildningar {
+    padding: 10px 0px 0px 0px;
+    font-size: 1.0em;
+}
+
 ul {
     list-style-type: none;
     margin:          0;
