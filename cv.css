@@ -64,6 +64,10 @@ h4.utbildningar {
     font-size: 1.0em;
 }
 
+p.utbildningsbeskrivning {
+    font-size: 0.8em;
+}
+
 ul {
     list-style-type: none;
     margin:          0;
