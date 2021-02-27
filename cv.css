@@ -7,64 +7,74 @@
 body {
     position: relative;
     width:    800px;
-    height:   1200px;
+    height:   900px;
     background: #d4d4d4;
 }
 
+#navigeringshuvud {
+}
+
 #main {
-    padding:  10px 0px 0px 30px;
     position: absolute;
-    top:      0px;
-    width:    65%;
-    left:     0px;
+    top:      20px;
+    left:     40px;
+    width:    60%;
+    padding:  10px 0px 0px 30px;
     text-align: left;
     background: #fefefe;
 }
 
-h3.namn {
-    padding: 20px 0px 0px 0px;
+#right_section {
+    position:   absolute;
+    top:        20px;
+    right:      0px;
+    width:      30%;
+    padding:    10px 10px 0px 0px;
+    text-align: right;
+    background: rgb( 240,240,240);
+    font-size:  0.9em;
+}
+
+#bottom {
+    position: absolute;
+    padding:  0px 0px 0px 10px;
+    width:    800px;
+    bottom:   30px;
+    left:     0px;
+}
+
+h3.titel_post_i_cv {
+    padding:   20px 0px 0px 0px;
+    font-size: 1.1em;
 }
 h4.company {
     padding: 10px 0px 0px 0px;
-}
-
-p.company {
-    font-size: 1.2em;
-    padding-top: 10px;
+    font-size: 1.0em;
 }
 p.company_tid {
-    font-size: 0.8em;
+    font-size:   0.8em;
+    font-family: gillius, serif;
 }
 p.company_beskrivning {
     font-size: 0.8em;
 }
 
-#right_section {
-    position: absolute;
-    padding:  10px 10px 0px 0px;
-    width:    30%;
-    top:      0px;
-    right:    0px;
-    text-align: right;
-    /* background: #fefefe; */
-    background: rgb( 240,240,240);
-    font-size: 0.9em;
+ul {
+    list-style-type: none;
+    margin:          0;
+    padding:         0;
 }
 
 #utvecklingstekniker {
-    text-align: right;
 }
 
 #IT_kunskaper {
-    text-align: right;
 }
 
 #kunskaper_sektion {
-    text-align: right;
 }
 
 #licenser_sektion {
-    text-align: right;
 }
 
 #stor_bild {
