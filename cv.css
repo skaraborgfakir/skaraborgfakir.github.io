@@ -67,10 +67,10 @@ p.company_beskrivning {
     text-align: right;
 }
 
-#stor {
+#stor_bild {
     width: 500px;
 }
-#liten {
+#liten_bild {
     width:     90px;
     /* rotering höger 90 grader */
     /* transform: rotate(90deg);*/
