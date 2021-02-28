@@ -32,7 +32,7 @@ body {
     padding:    10px 10px 0px 0px;
     text-align: right;
     background: rgb( 240,240,240);
-    font-size:  0.9em;
+    font-size:  1.2em;
 }
 
 #bottom {
@@ -45,18 +45,18 @@ body {
 
 h3.titel_post_i_cv {
     padding:   20px 0px 0px 0px;
-    font-size: 1.1em;
+    font-size: 1.5em;
 }
 h4.company {
     padding: 10px 0px 0px 0px;
-    font-size: 1.0em;
+    font-size: 1.2em;
 }
 h4.organisation {
     padding: 10px 0px 0px 0px;
-    font-size: 1.0em;
+    font-size: 1.1em;
 }
 p.company_tid {
-    font-size:   0.8em;
+    font-size:   1.0em;
     font-family: gillius, serif;
 }
 p.company_beskrivning {
@@ -65,7 +65,7 @@ p.company_beskrivning {
 
 h4.utbildningsnamn {
     padding: 10px 0px 0px 0px;
-    font-size: 1.0em;
+    font-size: 1.2em;
 }
 
 p.utbildningsbeskrivning {
@@ -76,18 +76,6 @@ ul {
     list-style-type: none;
     margin:          0;
     padding:         0;
-}
-
-#utvecklingstekniker {
-}
-
-#IT_kunskaper {
-}
-
-#kunskaper_sektion {
-}
-
-#licenser_sektion {
 }
 
 #stor_bild {
