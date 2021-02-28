@@ -72,6 +72,10 @@ p.utbildningsbeskrivning {
     font-size: 0.8em;
 }
 
+p.fritidssysla_beskrivning {
+    font-size: 0.8em;
+}
+
 ul {
     list-style-type: none;
     margin:          0;
