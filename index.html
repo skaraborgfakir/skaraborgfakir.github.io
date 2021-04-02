@@ -2,39 +2,88 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stefan Skoglunds hörna i github</title>
     <link rel="stylesheet" href="format.css"          title="Standard">
     <link rel="stylesheet" href="format_storstil.css" title="Stor stil">
-  </head>
+  </gghead>
 
   <body>
-    <div class="main_page">
+    <div id="navigeringshuvud">
+      <div style="overflow:auto;">
+	<div>
+	  <a class="knapp" href="index.html" title='Hem'>Rot</a>
+	  <a class="knapp" href="cv.html"    title='Min CV'>CV</a>
+	</div>
+      </div>
+    </div>
+
+    <div id="content">
       <div id="Signaltekniker">
-	Mitt betyg från signalteknikerkursen i Falköping finns <a href="Signalteknikerkursen/betyg_20150609222916638.pdf">här (betyg_20150609222916638)</a>
+	<p>
+	  Mitt betyg från signalteknikerkursen i Falköping
+	  finns <a href="Signalteknikerkursen/betyg_20150609222916638.pdf">här
+	    (betyg_20150609222916638)</a>
+	</p>
       </div>
 
       <div id="LinkedIn kurser">
-	Certifikat från LinkedIn (Lynda) för olika nätbaserade kurser
-	<a href="Linkedinkurser/CertificateOfCompletion_DevOps Foundations.pdf">Certificate of Completion, DevOps Foundations</a>
-	<a href="Linkedinkurser/CertificateOfCompletion_Writing with Proper Punctuation.pdf">Writing with Proper Punctuation, English</a>
+	<p>
+	  Certifikat från genomgångna LinkedIn(Lynda):kurser
+	  <a href="Linkedinkurser/CertificateOfCompletion_DevOps Foundations.pdf">Certificate of Completion, DevOps Foundations</a>
+	  <a href="Linkedinkurser/CertificateOfCompletion_Writing with Proper Punctuation.pdf">Writing with Proper Punctuation, English</a>
+	</p>
       </div>
 
       <div id="PKI funktion">
-	min PKI:struktur
-	<div class="content_section_text">
-	  <p>
-	    Jag har arbetat med att lägga upp en egen struktur för
-	    en 3-lagers certifkatutfärdningsstruktur.
+	<h2>PKI</h2>
+	<p>
+	  PKI handlar om publika nycklar och deras motsvarande privata dito
+	  och certifikat som signeras av
+	</p>
+	<p>
+	  en yttre entitet. Den här entiteten (certifikatutfärdaren)
+	  accepteras av flera organisationer. Certifikatutfärdarens certifikats
+	  privata nyckel måste skyddas av utfärdaren.
+	</p>
+	<p>
+	  Det signerade certifikatet är värdelöst om man inte har tillgång till
+	  den privata kodnyckeln
+	</p>
 
-	    Därför finns en rotcertifikatet <a href="SkaraborgfakirRotkontrollant.crt">här(SkaraborgfakirRotkontrollant.crt)</a> och den tillhörande annulleringslistan <a href="SkaraborgsfakirRootCA.crl.der">här</a>
-	</div>
+	<h3>min PKI:struktur</h3>
+	<p>
+	  Jag har arbetat med att lägga upp en egen struktur för
+	  en 3-lagers certifkatutfärdningsstruktur.
+	</p>
+	<p>
+	  Därför finns en rotcertifikatet <a href="SkaraborgfakirRotkontrollant.crt">här(SkaraborgfakirRotkontrollant.crt)</a> och den tillhörande
+	  annulleringslistan <a href="SkaraborgsfakirRootCA.crl.der">här</a>
+	</p>
+	<p>
+	  Hantering av signering av certifikat ska hanteras halv-automatiskt
+	  av kod i CFengine.
+	</p>
       </div>
+
       <div id="kunskaper_sektion">
 	<h3>Kunskaper</h3>
 	<ul>
 	  <li>CFEngine</li>
 	</ul>
       </div>
+    </div>
+    <div>
+      <address>
+	Stefan Skoglund
+	Högalidsgatan 36
+	521 61 Stenstorp
+      </address>
+    </div>
+    <div id=">
+      <p>
+	<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Strict" height="31" width="88"></a>
+      </p>
     </div>
   </body>
 </html>

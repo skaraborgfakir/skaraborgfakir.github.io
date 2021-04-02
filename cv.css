@@ -7,17 +7,21 @@
 body {
     position: relative;
     width:    800px;
-    height:   1130px;
+    height:   1300px;
     background: #d4d4d4;
 }
 
 #navigeringshuvud {
+    padding:  5px 0px 0px 10px;
+}
+
+#content {
+    position: absolute;
+    top:      30px;
+    width:    100%;
 }
 
 #main {
-    position: absolute;
-    top:      20px;
-    left:     40px;
     width:    60%;
     padding:  10px 0px 0px 30px;
     text-align: left;
@@ -26,21 +30,31 @@ body {
 
 #right_section {
     position:   absolute;
-    top:        20px;
     right:      0px;
     width:      30%;
-    padding:    10px 10px 0px 0px;
-    text-align: right;
     background: rgb( 240,240,240);
     font-size:  0.9em;
 }
 
-#bottom {
+#sidfot {
     position: absolute;
     padding:  0px 0px 0px 10px;
-    width:    800px;
-    bottom:   30px;
-    left:     0px;
+    height:   80px;
+    width:    100%;
+    bottom:   5px;
+}
+
+#kontaktinformation {
+    position: absolute;
+    bottom:   5px;
+    width:    60%;
+}
+
+#nedre_informationsruta {
+    position: absolute;
+    right:    10px;
+    bottom:   5px;
+    width:    15%;
 }
 
 h3.titel_post_i_cv {
