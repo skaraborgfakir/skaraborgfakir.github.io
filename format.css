@@ -17,18 +17,20 @@ body {
     font-size: 18px;
 }
 
-.knapp {
+.navigeringshuvud .knapp {
     padding: 10px 15px 9px 15px !important;
     float:   left !important;
     display: block;
     width:   auto;
 }
 
-.knapp:hover {
+.navigeringshuvud .knapp:hover {
 /*
       background-color: black;
       color:            white;
-*/
+ */
+    background-color: #ddd;
+    color:            #000;
 }
 
 validatorfot {
