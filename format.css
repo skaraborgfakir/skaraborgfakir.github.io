@@ -17,14 +17,14 @@ body {
     font-size: 18px;
 }
 
-.navigeringshuvud .knapp {
+#navigeringshuvud .knapp {
     padding: 10px 15px 9px 15px !important;
     float:   left !important;
     display: block;
     width:   auto;
 }
 
-.navigeringshuvud .knapp:hover {
+#navigeringshuvud .knapp:hover {
 /*
       background-color: black;
       color:            white;
