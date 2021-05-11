@@ -12,17 +12,9 @@ body {
 }
 
 #navigeringshuvud {
-    /* padding:          5px 0px 10px 20px;
-    position:         relative;
-    background-color: #7f7f7f;
-    color:            #ffffff;
-    box-shadow:       0px 2px 5px 0px rgba(0,0,0,16),
-		      0px 2px 10px 0px rgba(0,0,0,12);
-   */
 }
 
 #navigeringshuvud > div {
-/*    overflow:auto*/
 }
 
 .knapp {
@@ -34,9 +26,8 @@ body {
 }
 
 .knapp:hover {
-    color: white;
+    color: black;
 }
 
-/* a:focus {
-    outline: 2px solid black;
-}*/
+validatorfot {
+}
