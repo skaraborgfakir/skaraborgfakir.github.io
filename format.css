@@ -12,9 +12,9 @@ body {
 }
 
 #navigeringshuvud {
-}
-
-#navigeringshuvud > div {
+    position: fixed;
+    top: 0px;
+    font-size: 18px;
 }
 
 .knapp {
@@ -22,12 +22,13 @@ body {
     float:   left !important;
     display: block;
     width:   auto;
-
 }
 
 .knapp:hover {
-    background-color: black;
-    color:            white;
+/*
+      background-color: black;
+      color:            white;
+*/
 }
 
 validatorfot {
