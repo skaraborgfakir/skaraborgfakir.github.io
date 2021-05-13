@@ -13,7 +13,8 @@ body {
 
 #navigeringshuvud {
     position: fixed;
-    top: 0px;
+    top: 10px;
+    left: 10px;
     font-size: 18px;
 }
 
@@ -31,6 +32,10 @@ body {
  */
     background-color: #ddd;
     color:            #000;
+}
+
+#content {
+    margin-top: 50px;
 }
 
 validatorfot {
