@@ -17,3 +17,5 @@
 .~lock.*
 
 test*.*
+format_saved.css
+format_storstil_saved.css
