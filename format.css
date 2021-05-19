@@ -1,9 +1,9 @@
 * {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 html {
-    box-sizing: border-box;
+/*    box-sizing: border-box; */
 }
 
 body {
@@ -12,10 +12,16 @@ body {
 }
 
 #navigeringshuvud {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    font-size: 18px;
+    display:     block;
+    position:    relative;
+    top:         10px;
+    margin-left: 10px;
+    font-size:   18px;
+    text-align: center;
+}
+
+#navigeringshuvud div {
+    overflow: auto;
 }
 
 #navigeringshuvud .knapp {
@@ -26,17 +32,54 @@ body {
 }
 
 #navigeringshuvud .knapp:hover {
-/*
-      background-color: black;
-      color:            white;
- */
     background-color: #ddd;
     color:            #000;
 }
 
-#content {
-    margin-top: 50px;
+#main {
+    /* padding-top: 0px;*/
+    margin-left: 20px;
+    width:       60%;
+    float:       left;
 }
 
-validatorfot {
+.company_tid {
+    padding-top:   0px;
+    margin-bottom: 0px;
+    box-sizing:    content-box;
+}
+.company_beskrivning {
+    padding-top:   0px;
+    margin-top: 0px;
+    box-sizing:    content-box;
+}
+
+#hmarginsektion {
+    padding-top:  0px;
+    padding-left: 20px;
+    width:        30%;
+    float:        left;
+}
+
+#liten_bild {
+    width: 110px;
+}
+
+#sidfot {
+    float: left;
+    width: 100%;
+}
+
+#kontaktinformation {
+    margin-top: 550px;
+}
+
+#kontaktinformation p {
+    padding-top:    2px;
+    padding-bottom: 0px;
+    margin-top:     0px;
+    margin-bottom:  2px;
+}
+
+#nedre_informationsruta {
 }
