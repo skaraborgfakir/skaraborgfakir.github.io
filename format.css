@@ -7,7 +7,6 @@ html {
 }
 
 body {
-    font-family: sans-serif;
     background:  #fafafa;
 }
 
@@ -18,6 +17,7 @@ body {
     margin-left: 10px;
     font-size:   18px;
     text-align: center;
+    font-family: sans-serif;
 }
 
 #navigeringshuvud div {
@@ -43,15 +43,25 @@ body {
     float:       left;
 }
 
+h3 {
+    font-family:   sans-serif;
+}
+
+h4 {
+    font-family:   sans-serif;
+}
+
 .company_tid {
     padding-top:   0px;
     margin-bottom: 0px;
+    font-family:   Cinzel, Verdana, "Trebuchet MS", Arial, sans-serif;
     box-sizing:    content-box;
 }
 .company_beskrivning {
     padding-top:   0px;
-    margin-top: 0px;
+    margin-top:    0px;
     box-sizing:    content-box;
+    font-family:   sans-serif;
 }
 
 #hmarginsektion {
@@ -59,6 +69,7 @@ body {
     padding-left: 20px;
     width:        30%;
     float:        left;
+    font-family:  sans-serif;
 }
 
 #liten_bild {
