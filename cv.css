@@ -14,6 +14,9 @@ body {
 #navigeringshuvud {
     padding:  5px 0px 0px 10px;
 }
+#navigeringshuvud a {
+    margin-right: 10px;
+}
 
 #content {
     position: absolute;
