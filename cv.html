@@ -149,18 +149,20 @@
 		    signeringsbegäran och sedan hämta från CFEngine:navet sitt signerade certifikat.
 		</p>
 		<p>
-		    Systemet använder tre stycken utfärdare:
+		    Systemet innehåller tre stycken utfärdare:
 		    <ol>
 			<li>Rotcertifikatutfärdare</li>
 			<li>Mellannivåutfärdare (egentligen är det en rotutfärdare men som har ett mer kortlivat eget certifikat</li>
 			<li>En utfärdare som är begränsad till att signera certifikat från tjänster</li>
 			<li>En utfärdare som enbart signerar slutanvändarecertifikat</li>
 		    </ol>
-		</p>
-
 		<p>
 		    Mellannivåutfärdarens eget certifikat är signerat av rotutfärdaren med dess certifikat.
 		    De två utfärdarna på 3:e nivån har var sitt certifikat som signeras från mellannivån.
+		</p>
+		<p>
+		    Designen har sin grund från Stefan Holeks PKI:instruktion
+		    (<A href="https://pki-tutorial.readthedocs.io/en/latest/">OpenSSL PKI Tutorial</A>)
 		</p>
 
 		<h3 class="projektnamn">Automatisering av BIND</h3>
