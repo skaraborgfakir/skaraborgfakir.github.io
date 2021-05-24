@@ -143,6 +143,19 @@
 
 		<h3 class="projektnamn">PKI:funktionalitet</h3>
 		<p class="projektbeskrivning">
+		    Moduler skrivna i CFEngine för att kontrollerade system ska installera ett rotcertifikat
+		    och att användare och tjänster ska kunna exportera till sina respektive utfärdare en
+		    signeringsbegäran och sedan hämta från CFEngine:navet sitt signerade certifikat.
+		</p>
+		<p>
+		    Systemet använder tre stycken utfärdare:
+		    <ol>
+			<li>Rotcertifikatutfärdare</li>
+			<li>Mellannivåutfärdare (egentligen är det en rotutfärdare men som har ett mer kortlivat
+			    eget certifikat</li>
+			<li>En utfärdare som är begränsad till att signera certifikat från tjänster</li>
+			<li>En utfärdare som enbart signerar slutanvändarecertifikat</li>
+		    </ol>
 		</p>
 
 		<h3 class="projektnamn">Automatisering av BIND</h3>
