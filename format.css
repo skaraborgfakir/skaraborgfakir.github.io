@@ -84,6 +84,16 @@ p.period {
     padding-bottom: 0px;
 }
 
+.organisation {
+    margin-bottom:  0px;
+    padding-bottom: 3px;
+}
+
+.fritidssysla_beskrivning {
+    margin-top:     0px;
+    padding-top:    0px;
+}
+
 #hmarginsektion {
     padding-top:  0px;
     padding-left: 20px;
