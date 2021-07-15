@@ -16,6 +16,7 @@
 ## låsfil (vi ?)
 .~lock.*
 
-test*.*
+test.css
+test.html
 format_saved.css
 format_storstil_saved.css
