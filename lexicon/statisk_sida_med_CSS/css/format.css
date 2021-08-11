@@ -83,7 +83,7 @@ aside > ul > li > li:nth-child(odd) {
     color: wheat;
 }
 aside > ul > li > li:nth-child(even) {
-    color: Steelgray;
+    color: #87898c;
 }
 
 .login.huvud > h2 {
