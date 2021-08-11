@@ -80,7 +80,7 @@ section {
 }
 
 aside > ul > li:nth-child(odd) {
-    color: wheat;
+    color: #00898c;
 }
 aside > ul > li:nth-child(even) {
     color: #87898c;
