@@ -79,7 +79,10 @@ section {
     font-weight:  bold;
 }
 
-.login.huvud {
+.login.huvud > h2 {
+    text-transform: uppercase;
+}
+.login.huvud > p {
     text-transform: uppercase;
 }
 
