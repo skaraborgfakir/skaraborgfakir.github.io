@@ -79,6 +79,13 @@ section {
     font-weight:  bold;
 }
 
+aside > ul > li > li:nth-child(odd) {
+    color: wheat;
+}
+aside > ul > li > li:nth-child(even) {
+    color: Steelgray;
+}
+
 .login.huvud > h2 {
     text-transform: uppercase;
 }
