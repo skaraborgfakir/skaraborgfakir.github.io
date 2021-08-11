@@ -34,8 +34,8 @@ main {
     border-bottom-width: 2px;
 }
 .sidhuvud_mitt {
-    flex-basis: 0%;
-    flex-grow: 1;
+    flex-basis:   0%;
+    flex-grow:    1;
     flex-shrink : 1;
 }
 
@@ -56,7 +56,7 @@ main {
     position: fixed;
     z-index: 15;
     top: 0.10rem;
-    right: 10rem;
+    right: var(--gap);
 }
 
 main {
