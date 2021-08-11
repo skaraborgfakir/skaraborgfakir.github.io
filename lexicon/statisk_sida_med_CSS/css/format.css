@@ -79,10 +79,10 @@ section {
     font-weight:  bold;
 }
 
-aside > ul > li > li:nth-child(odd) {
+aside > ul > li:nth-child(odd) {
     color: wheat;
 }
-aside > ul > li > li:nth-child(even) {
+aside > ul > li:nth-child(even) {
     color: #87898c;
 }
 
