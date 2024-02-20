@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: sans-serif;
+    background:  #fafafa;
+}
+
+#navigeringshuvud {
+    background-color: #5f5f5f;
+    color:            #ffffff;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,16),
+		0px 2px 10px 0px rgba(0,0,0,12);
+}
+
+#navigeringshuvud a {
+    float:   left !important;
+    display: block
+}
+
+a:focus {
+    outline: 2px solid black;
+}
