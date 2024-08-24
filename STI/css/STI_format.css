@@ -1,0 +1,126 @@
+@import url("http://fonts.googleapis.com/css?family=Cinzel:500");
+
+* {
+    font-family: sans-serif;
+    box-sizing:  border-box;
+}
+
+html {
+}
+
+body {
+    background:  #fafafa;
+/*    background:  #fbfbfb;*/
+}
+
+#navigeringshuvud {
+    display:     block;
+    position:    relative;
+    top:         10px;
+    margin-left: 10px;
+    font-size:   18px;
+    text-align:  center;
+}
+
+#navigeringshuvud div {
+    overflow: auto;
+}
+
+#navigeringshuvud .knapp {
+    padding: 10px 15px 9px 15px !important;
+    float:   left !important;
+    display: block;
+    width:   auto;
+}
+
+#navigeringshuvud .knapp:hover {
+    background-color: #ddd;
+    color:            #000;
+}
+
+#main {
+    margin-left:    20px;
+    width:          60%;
+    float:          left;
+}
+
+.utbildningsnamn {
+    margin-bottom:  0px;
+    padding-bottom: 3px;
+}
+
+p.period {
+    margin-top:     0px;
+    margin-bottom:  0px;
+    padding-top:    0px;
+    padding-bottom: 1px;
+    font-weight:    500;
+    font-family:    "Cinzel", Verdana, "Trebuchet MS", Arial, sans-serif;
+}
+
+.utbildningsbeskrivning {
+    margin-top:     0px;
+    padding-top:    0px;
+    padding-bottom: 0px;
+}
+
+.arbetsgivare {
+    margin-bottom:  0px;
+    padding-bottom: 3px;
+}
+
+.arbetsbeskrivning {
+    padding-top:   0px;
+    margin-top:    0px;
+}
+
+.projektnamn {
+    margin-bottom:  0px;
+    padding-bottom: 3px;
+}
+.projektbeskrivning {
+    margin-top:     0px;
+    padding-top:    0px;
+    padding-bottom: 0px;
+}
+
+.organisation {
+    margin-bottom:  0px;
+    padding-bottom: 3px;
+}
+
+.fritidssysla_beskrivning {
+    margin-top:     0px;
+    padding-top:    0px;
+}
+
+#hmarginsektion {
+    padding-top:  0px;
+    padding-left: 20px;
+    width:        30%;
+    float:        left;
+}
+
+#liten_bild {
+    width: 110px;
+}
+
+#sidfot {
+    float: left;
+    width: 100%;
+}
+
+/* #kontaktinformation { */
+/*     margin-top: 550px; */
+/* } */
+
+#kontaktinformation p {
+    padding-top:    2px;
+    padding-bottom: 0px;
+    margin-top:     0px;
+    margin-bottom:  0px;
+}
+
+#nedre_informationsruta {
+    margin-left: 20px;
+}
